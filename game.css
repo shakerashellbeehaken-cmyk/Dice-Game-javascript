@@ -1,0 +1,73 @@
+body {
+    font-family: system-ui, sans-serif;
+    background: #012753;
+    color: #e8ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.game {
+    width: 360px;
+    background: #07518d;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.stats {
+    background: #1868c2;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+.score-box {
+    font-size: 42px;
+    margin: 12px 0;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    background: #318cdb;
+    color: #002b2b;
+    cursor: pointer;
+}
+
+button:disabled {
+    background: #999;
+    cursor: not-allowed;
+}
+
+.total {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.balls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.ball {
+    width: 14px;
+    height: 14px;
+    background: rgb(153, 190, 255);
+    border-radius: 50%;
+}
+
+.win {
+    background: #0a8f4d;
+}
+
+.lose {
+    background: #8f1d1d;
+}
